@@ -1,0 +1,81 @@
+
+.wrapClassName{
+    background-color: #00000082;
+    .ant-modal-content{
+        background-color: transparent;
+        .ant-modal-body{
+            padding:0
+        }
+    }
+    
+}
+.image-small-slider{
+    object-fit: contain;
+    background: #fff;
+}
+.styleslideShow{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.styleForImage{
+    width: 100%;
+    object-fit: contain;
+    height: 155px;
+    background: #fff;
+    border-radius: 10px;
+}
+.close-icon{
+    position: absolute;
+    background: #ffffff;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 992px) {
+    .styleForImage{
+        height: 100% !important;
+        max-height: 300px  !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .cu-slider 
+    {
+        & .slick-arrow{
+  display: none !important;
+        }
+    }
+  }
+  .cu-slider 
+  {
+ 
+   & .slick-prev:before, .slick-next:before{
+    color: #191919 !important;
+  }
+
+  & .slick-next{
+    right: 6px;
+    z-index: 1;
+
+  }
+  & .slick-prev{
+    left: 3px;
+    z-index: 1;
+  }
+
+  & .slick-dots li button:before{
+    opacity: 1 !important;
+    color: #cbc5c5 !important;
+  }
+
+  & .slick-dots{
+    bottom: 37px !important;
+  }
+}

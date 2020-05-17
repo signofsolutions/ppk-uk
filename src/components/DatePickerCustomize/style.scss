@@ -1,0 +1,48 @@
+.weeks-days{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    color:#484848;
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.days{
+    width: 14.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.days-none-selected{
+    width: 14.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin: 5px 0;
+    color: #dddddd;
+    cursor: no-drop;
+    cursor: pointer;
+}
+
+.days-selected-start{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #00A7CF;
+    color: #fff;
+}
+.days-selected-end{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #00A7CF;
+    color: #fff;
+}
+.days-selected-select{
+    color: #fff;
+    background: #00A7CF;
+}

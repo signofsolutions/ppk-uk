@@ -1,0 +1,44 @@
+.btn-flat {
+  background-color: #e7f8fe;
+  color: #64c2e9;
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.step-blue-color {
+  color: #64c2e9;
+  cursor: pointer;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: #64c2e9;
+  border: 0;
+  outline: none;
+  font-size: 0.65rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+
+.btn-transparent {
+  i:hover {
+    cursor: pointer;
+  }
+}
+
+.steps-slider {
+  width: 350px;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #1b1e21;
+}

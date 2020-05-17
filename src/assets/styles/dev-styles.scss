@@ -1,0 +1,218 @@
+.hedaer-booking-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #00a7cf;
+    color: #fff;
+    z-index: 1;
+    .menuBtn{
+        display: none;
+    }
+    .back{
+        color:#fff;
+        &:hover{
+            color:#201e1e;
+        }
+    }
+    .logo{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        img{
+            width: 150px;
+        }
+    }
+    .login{
+        display: flex;
+        a{
+            color: #fff;
+            &:hover{
+                color:#201e1e;
+            }
+        }
+    }
+}
+
+.booking-page{
+    .progress-bar-booking{
+        position: absolute;
+        bottom: 10px;       
+        width: 300px;     
+    }
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 64px);
+    flex-direction: column;
+}
+@media (max-width: 576px) {
+    .booking-page{
+        
+        .progress-bar-booking{
+            position: relative;            
+        }
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .hedaer-booking-page{
+        .menuBtn{
+            display: block;
+            justify-content: flex-end;
+        }
+        .back{
+            display: none;
+        }
+        .login{
+            display: none;
+        }
+    }
+  }
+  
+
+.shadow-0 {
+    box-shadow: none !important;
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+.btn-booking-outline{
+    font-size: 13px;
+    margin-top: 10px;
+    border: 1px solid #2fade2;
+    color:#2fade2;
+}
+.btn-booking-outline:hover{
+
+    color:#fff;
+    background: skyblue;
+}
+.btn-booking{
+    font-size: 13px;
+    margin-top: 10px;
+    background: #2fade2;
+    color:#fff;
+}
+.btn-booking:hover{
+    color:#fff;
+    background: skyblue;
+}
+.border-1-e5 {
+    border: 1px solid #e5e5e5;
+}
+.font-14 {
+    font-size: 14px !important;
+}
+.font-12 {
+    font-size: 12px !important;
+}
+.custom-link-style {
+    color: #000;
+    font-size: 14px;
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+.my-custom-checkbox {
+    &.custom-checkbox .custom-control-label::before {
+        border-radius: 4px;
+        box-shadow: none;
+        border-color: #00a7cf;
+        top: 0;
+    }
+    &.custom-checkbox .custom-control-label::after {
+        border-color: #00a7cf;
+        top: 0;
+    }
+    &.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+        background-color: #00a7cf;
+        border-color: #00a7cf;
+    }
+}
+.filter-container {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
+.my-custom-select {
+    .form-control {
+        height: 37.5px;
+        border: 1px solid #e5e5e5;
+        box-shadow: none;
+        font-size: 14px;
+    }
+    .ant-input-affix-wrapper{
+        border-radius: 10px ;
+        height: 37.5px;
+    }
+    .dropdown-menu {
+        border: 1px solid #e5e5e5;
+        .dropdown-item {
+            font-size: 16px;
+        }
+    }
+}
+.my-custom-select2 {
+    .form-control {
+        height: 43px;
+        border: 1px solid #e5e5e5;
+        box-shadow: none;
+        font-size: 14px;
+    }
+    .ant-input-affix-wrapper{
+        border-radius: 10px ;
+        height: 43px;
+    }
+    .dropdown-menu {
+        border: 1px solid #e5e5e5;
+        .dropdown-item {
+            font-size: 16px;
+        }
+    }
+}
+.search-result {
+    .tab-scroll {
+        @media (max-width: 576px) {
+            flex-wrap: nowrap;
+            overflow-y: hidden;
+            overflow-x: scroll;
+        }
+        .nav-item {
+            white-space: nowrap;
+        }
+    }
+    .nav.nav-tabs {
+        border: none;
+    }
+    .nav-item.nav-link {
+        font-size: 12px;
+        border: none;
+        color: #484848;
+        &.active {
+            color: #00a7cf;
+            border: none;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                height: 7px;
+                width: 100%;
+                left: 0;
+                right: 0;
+                border-radius: 50px 50px 0 0;
+                background-color: #3094c3;
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.section-slider-item {
+  background-color: white;
+  //border: 2px solid #bee0f0;
+  //box-shadow: 0px 2px 0px #a0d6ed;
+  border-radius: 5px;
+  padding: 1rem;
+  width: unset !important;
+
+  .section-slider-image {
+    margin: 0 auto;
+  }
+}
+
+.section-slider-title {
+  font-family: "Oswald";
+  color: #282828;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.section-slider-descrip {
+  font-family: "Open Sans";
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.section-slider {
+  margin-top: 2rem;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 14px !important;
+  height: 14px !important;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+  border-radius: 50%;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  content: "";
+  text-align: center;
+  opacity: 0.25;
+  color: transparent;
+  border: #4799ca 2px solid;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #4799ca;
+  background-color: #4799ca;
+}
+
+.slick-dots {
+  bottom: -35px;
+}
