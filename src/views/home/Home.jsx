@@ -370,12 +370,13 @@ function Home() {
                 <div className="pppn-divider-gray" />
               </div>
               <div className="text">
-                Our market is not seasonal like others, our clients are working
-                all year round year in year out And are often in locations for
-                many months at a time, before moving onto the next location.
-                These types of long term stays are easier to manage and much
-                less stressful than the shorter-term stays with multiple
-                turnovers
+                Experience the benefits and power of our unique booking engine,
+                We’ve created a bespoke calendar that allows our clients to book
+                multiple properties over multiple weeks all at the click of a
+                few buttons. Drastically reducing the time it would take to make
+                the bookings individually, and encouraging them to book further
+                in advance than what they typically would. This results in you
+                the host receiving more bookings and more revenue.
                 <br />
                 <button className="btn btn-custom mt-4">Get Started</button>
               </div>
