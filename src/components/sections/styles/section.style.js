@@ -112,7 +112,7 @@ export const SectionCellDescrip = styled.p`
   font-size: 0.875rem;
   text-align: center;
   margin-top: 15px;
-  font-style: italic
+  font-style: italic;
 `;
 
 export const SectionCellImage = styled.img`
@@ -230,7 +230,7 @@ export const SectionFiveTitle = styled.h1`
 `;
 
 export const SectionFiveDescrip = styled.p`
-  color: #54595F;
+  color: #54595f;
   font-family: "Open Sans";
   font-size: 1rem;
   text-align: left;
@@ -241,6 +241,7 @@ export const SectionFiveDescrip = styled.p`
 
 export const SectionFiveImage = styled.img`
   margin: 0rem;
+  width: 100%;
 `;
 
 export const SectionFourBox = styled.div`
@@ -267,6 +268,10 @@ export const SectionSixContainer = styled.div`
 export const SectionSixRight = styled.div`
   flex: 4;
   padding: 0 2rem;
+
+  @media screen and (device-width: 360px) and (device-height: 640px) {
+    padding: unset;
+  }
 `;
 
 export const SectionSixLeft = styled.div`

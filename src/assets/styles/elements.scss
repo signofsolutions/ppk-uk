@@ -37,8 +37,13 @@
 
 .steps-slider {
   width: 350px;
+
+  @media screen and (device-width: 360px) and (device-height: 640px) {
+    width: 300px;
+  }
 }
 
-.slick-next:before, .slick-prev:before {
+.slick-next:before,
+.slick-prev:before {
   color: #1b1e21;
 }
