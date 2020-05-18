@@ -1,0 +1,82 @@
+.header-container {
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.04);
+
+  .header-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .header-top-item {
+      padding: 1rem 0 0.25rem 0rem;
+
+      .header-top-text {
+        font-size: 0.875em;
+
+        .list-inline {
+          .list-inline-item {
+            a {
+              color: #d5d5d6;
+            }
+
+            a:hover{
+              color: #57aee2;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-nav {
+    background-color: #57aee2;
+    color: white;
+  }
+}
+
+.bg-light {
+  background-color: #57aee2 !important;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 0.9em;
+}
+
+.login-link {
+  color: white;
+}
+
+.signup-link {
+  color: #57aee2;
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  border-radius: 50px;
+}
+
+.faq-background {
+  .faq-row {
+    background-color: white;
+    padding: 0.75rem;
+    box-shadow: 0px 0px 10px 0px #a0d6ed;
+    margin-bottom: 1rem;
+    border: 1px solid #bee0f0;
+    border-radius: 5px;
+
+    .faq-question {
+      font-weight: bold;
+      color: #282828;
+      font-size: 0.85em;
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-answer {
+      font-weight: normal;
+      color: #666;
+      font-size: 0.85em;
+    }
+  }
+}

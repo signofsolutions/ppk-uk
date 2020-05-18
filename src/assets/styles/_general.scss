@@ -1,0 +1,78 @@
+* {
+  font-family: $font-base !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.blue-color {
+  color: #57aee2;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #57aee2;
+  border-color: #57aee2;
+  border-radius: 50px;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #4799ca;
+  border-color: #4799ca;
+}
+
+.form-control {
+  border-radius: 5rem !important;
+  font-size: 0.875rem;
+}
+
+.font-base {
+  font-family: "Oswald" !important;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+  border-radius: 50%;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  content: "";
+  text-align: center;
+  opacity: 0.25;
+  color: transparent;
+  border: #4799ca 2px solid;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #4799ca;
+  background-color: #4799ca;
+}
+
+.slick-dots{
+  bottom: -35px;
+}

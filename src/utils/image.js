@@ -1,0 +1,17 @@
+export const Images = {
+  banner: require("assets/images/banner.png"),
+  logo: require("assets/images/logo.png"),
+  logoLarge: require("assets/images/logo-2x.png"),
+  Home1: require("assets/images/home1.png"),
+  Home2: require("assets/images/home2.png"),
+  Home3: require("assets/images/home3.png"),
+  Home4: require("assets/images/home4.png"),
+  Home5: require("assets/images/home5.png"),
+  Home6: require("assets/images/home6.png"),
+  Home7: require("assets/images/home7.png"),
+  Home8: require("assets/images/home8.png"),
+  Home9: require("assets/images/home9.png"),
+  Home10: require("assets/images/home10.png"),
+  ilecLogo: require("assets/images/ILEC-LOGO.png"),
+  deliveryMatesLogo: require("assets/images/Delivery-Mates-LOGO.png"),
+};
