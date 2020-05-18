@@ -7,12 +7,16 @@ export const HeaderContainer = styled.div`
   background-position: bottom center;
   color: white;
   width: 100%;
-  height: 600px;
+  height: 700px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  align-items: center;
+  align-items: baseline;
+  
+  @media (max-width: 480px) {
+    align-items: baseline;
+  }
 `;
 
 export const HeaderInner = styled.div`
@@ -36,10 +40,11 @@ export const HeaderText = styled.div`
   font-size: 2rem;
   font-weight: bold;
   padding: 0 4rem 0 0;
+  margin-top: 45px;
 
   @media (max-width: 480px) {
     font-size: 1.5rem;
-    margin: 4rem 0;
+    margin: unset;
   }
 
   @media (max-width: 320px) {
@@ -58,11 +63,17 @@ export const HeaderForm = styled.div`
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: rgb(221, 234, 255) -2px 0px 8px;
-  position: relative;
+  position: absolute;
+  right: 180px;
+  top: 130px;
+  width: 400px;
   border-width: 2px;
   border-style: solid;
   border-color: rgb(232, 245, 251);
 
   @media (max-width: 480px) {
+    right: 5px;
+    top: 480px;
+    width: 400px;
   }
 `;
