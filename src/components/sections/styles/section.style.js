@@ -112,6 +112,7 @@ export const SectionCellDescrip = styled.p`
   font-size: 0.875rem;
   text-align: center;
   margin-top: 15px;
+  font-style: italic
 `;
 
 export const SectionCellImage = styled.img`
@@ -385,7 +386,7 @@ export const SectionOneSubTitle = styled.div`
   font-family: "Oswald";
   border-left: 8px solid #eeeeee;
   padding: 5px;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: left;
   line-height: 1;
