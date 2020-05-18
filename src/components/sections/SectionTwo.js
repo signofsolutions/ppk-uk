@@ -16,7 +16,15 @@ function SectionTwo() {
     <SectionContainer color="#fff">
       <SectionInner>
         <SectionTitle>
-          Our Amazing <br /> <span>Contractor</span>
+          Our Amazing <br />{" "}
+          <span>
+            Contractor <br />
+            <img
+              style={{marginTop: "-75px"}}
+              src={require("../../assets/images/B_Border_Back.png")}
+              alt="bottom"
+            />
+          </span>
         </SectionTitle>
         <SectionLead>Accommodation Management at its finest</SectionLead>
         <SectionFourGrid>

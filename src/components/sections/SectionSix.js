@@ -8,13 +8,14 @@ import {
   SectionSixTitle,
   SectionSixImage,
   SectionSixSlider,
+  BorderBottom,
 } from "./styles/section.style";
 import Slider from "react-slick";
 
 const settings = {
   dots: true,
   infinite: true,
-  autoplay: true,
+  autoplay: false,
   arrows: true,
   speed: 1000,
   slidesToShow: 1,
@@ -27,11 +28,39 @@ function SectionSix() {
       <SectionInner>
         <SectionSixContainer>
           <SectionSixRight>
-            <SectionSixTitle>Current customers</SectionSixTitle>
+            <SectionSixTitle>Previous customers</SectionSixTitle>
+            <BorderBottom style={{ justifyContent: "flex-start" }}>
+              <div
+                style={{
+                  width: "80px",
+                  height: "8px",
+                  backgroundColor: "#2FADE2",
+                }}
+              />
+              <div
+                className="borderBottomCustomer"
+                style={{
+                  height: "8px",
+                  backgroundColor: "#EEE",
+                  marginLeft: "10px",
+                }}
+              />
+            </BorderBottom>
             <SectionSixSlider>
               <Slider {...settings}>
                 <div className="section-slider-item">
-                  <h3 className="section-slider-title">Ilec</h3>
+                  <div style={{ display: "flex", alignItems: "end" }}>
+                    <img
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        marginRight: "10px",
+                      }}
+                      src={require("../../assets/images/Quote.png")}
+                      alt="quote"
+                    />
+                    <h3 className="section-slider-title">Ilec</h3>
+                  </div>
                   <p className="section-slider-descrip">
                     We have been working with the PPPN team for some time now.
                     They are a fantastic company to work with and go out of
@@ -47,7 +76,19 @@ function SectionSix() {
                   />
                 </div>
                 <div className="section-slider-item">
-                  <h3 className="section-slider-title">Delivery Mates</h3>
+                  <div style={{ display: "flex", alignItems: "end" }}>
+                    <img
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        marginRight: "10px",
+                      }}
+                      src={require("../../assets/images/Quote.png")}
+                      alt="quote"
+                    />
+                    <h3 className="section-slider-title">Delivery Mates</h3>
+                  </div>
+
                   <p className="section-slider-descrip">
                     Delivery Mates Having a vast international workforce in the
                     UK brings its challenges, We wanted to find a strong company
@@ -65,7 +106,19 @@ function SectionSix() {
                   />
                 </div>
                 <div className="section-slider-item">
-                  <h3 className="section-slider-title">Daniel kemp</h3>
+                  <div style={{ display: "flex", alignItems: "end" }}>
+                    <img
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        marginRight: "10px",
+                      }}
+                      src={require("../../assets/images/Quote.png")}
+                      alt="quote"
+                    />
+                    <h3 className="section-slider-title">Daniel kemp</h3>
+                  </div>
+
                   <p className="section-slider-descrip">
                     Couldn’t fault the service provided and the personal touch I
                     receive from our account manager Kelly, she always goes over

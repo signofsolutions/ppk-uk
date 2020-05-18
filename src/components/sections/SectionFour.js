@@ -9,7 +9,7 @@ import {
   SectionFourBoxTitle,
   SectionFourImage,
   SectionFourBox,
-  SectionFourBoxMainTitle,
+  SectionFourBoxMainTitle, BorderBottom,
 } from "./styles/section.style";
 import Slider from "react-slick";
 
@@ -28,6 +28,10 @@ function SectionFour() {
     <SectionContainer>
       <SectionInner>
         <SectionTitle>4 Steps Proccess</SectionTitle>
+        <BorderBottom>
+          <div style={{width: "80px", height: "8px", backgroundColor: "#2FADE2"}}/>
+          <div style={{width: "180px", height: "8px", backgroundColor: "#EEE", marginLeft: "10px"}}/>
+        </BorderBottom>
         <SectionFourContainer>
           <SectionFourRight>
             <Slider {...settings} className="steps-slider">

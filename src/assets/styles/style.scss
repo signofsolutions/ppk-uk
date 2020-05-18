@@ -777,3 +777,10 @@ a:hover {
   right: 0;
   z-index: 22;
 }
+
+.borderBottomCustomer {
+  width: 280px;
+  @media (max-width: 480px) {
+    width: 221px;
+  }
+}

@@ -26,12 +26,20 @@ export const SectionTitle = styled.div`
   text-align: center;
 `;
 
+export const BorderBottom = styled.div`
+  display: flex;
+  flex-direction: row;
+  color: red;
+  justify-content: center;
+`;
+
 export const SectionLead = styled.div`
-  color: #282828;
+  color: #54595f;
   font-family: "Open Sans";
   font-size: 1.2rem;
   text-align: center;
   margin: 1rem 0;
+  font-style: italic;
 
   @media (max-width: 480px) {
     margin: 0;
@@ -170,17 +178,23 @@ export const SectionSixTitle = styled.h1`
   font-size: 2.4rem;
   text-align: left;
   margin: 0;
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
 `;
 
 export const SectionSixLead = styled.p`
   color: #666;
   font-family: "Open Sans";
-  font-size: 1rem;
+  font-size: 0.7rem;
+  font-style: italic;
   text-align: left;
+  margin-top: 30px;
 `;
 
 export const SectionSixImage = styled.img`
-  margin: 0rem;
+  margin-top: 30px;
   width: 100%;
 `;
 
@@ -215,10 +229,13 @@ export const SectionFiveTitle = styled.h1`
 `;
 
 export const SectionFiveDescrip = styled.p`
-  color: #666;
+  color: #54595F;
   font-family: "Open Sans";
   font-size: 1rem;
   text-align: left;
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 0.7rem;
 `;
 
 export const SectionFiveImage = styled.img`
@@ -254,6 +271,10 @@ export const SectionSixRight = styled.div`
 export const SectionSixLeft = styled.div`
   flex: 2;
   padding: 2rem;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const SectionSixDescrip = styled.p`
@@ -268,9 +289,8 @@ export const SectionSixSlider = styled.div`
   margin: 1rem 0;
 
   @media (max-width: 480px) {
-    width: 400px;
+    width: 310px;
     margin: 0;
-    display: none;
   }
 `;
 
@@ -298,6 +318,10 @@ export const SectionFourRight = styled.div`
 export const SectionFourLeft = styled.div`
   flex: 2;
   padding: 2rem 0;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const SectionFourBoxTitle = styled.h1`
@@ -316,6 +340,10 @@ export const SectionFourBoxMainTitle = styled.h1`
   text-align: left;
   margin: 0;
   font-weight: bold;
+
+  @media (max-width: 480px) {
+    text-align: center;
+  }
 `;
 
 export const SectionFourDescrip = styled.p`
@@ -337,8 +365,7 @@ export const SectionOneContainer = styled.div`
   padding: 2rem 0;
 
   @media (max-width: 480px) {
-    flex-direction: column;
-    padding: 2rem 0;
+    display: none;
   }
 `;
 
@@ -356,16 +383,12 @@ export const SectionOneMainTitle = styled.div`
 export const SectionOneSubTitle = styled.div`
   color: #56ade2;
   font-family: "Oswald";
-  border-left: 8px solid #EEEEEE;
+  border-left: 8px solid #eeeeee;
   padding: 5px;
   font-size: 6rem;
   font-weight: bold;
   text-align: left;
   line-height: 1;
-  
-  @media (max-width: 480px) {
-    font-size: 3rem;
-  }
 `;
 
 export const SectionOneRight = styled.div`
@@ -375,10 +398,6 @@ export const SectionOneRight = styled.div`
 
 export const SectionOneLeft = styled.div`
   flex: 2;
-  
-  @media (max-width: 480px) {
-    padding-bottom: 10px
-  }
 `;
 
 export const StatisticsCard = styled.div`

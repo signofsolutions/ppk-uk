@@ -12,17 +12,30 @@ import {
   SectionThreeLeft,
   SectionSixImage,
 } from "./styles/section.style";
+import {SignInButton} from "../layouts/styles/nav.style";
 
 function SectionThree() {
   return (
     <SectionThreeContainer color="#f3fdff">
       <SectionThreeInner>
         <SectionThreeRight>
-          <SectionSixTitle>Why PPPN?</SectionSixTitle>
+          <SectionSixTitle>
+            <span style={{ borderBottom: "8px solid #2FADE2" }}>Why</span>{" "}
+            <span
+              style={{ color: "#2FADE2", borderBottom: "8px solid #EEEEEE" }}
+            >
+              PPPN?
+            </span>
+          </SectionSixTitle>
           <SectionSixLead>
             Try having one consolidated invoice for all your accommodation
             needs, instead of spreading it across multiple websites
           </SectionSixLead>
+
+          <SignInButton href="#">
+            Book Now
+          </SignInButton>
+
           <SectionSixImage
             src={require("../../assets/images/home/house.png")}
             alt="image"

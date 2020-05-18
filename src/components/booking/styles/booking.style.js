@@ -53,6 +53,8 @@ export const BookingBlueContainer = styled.div`
   @media (max-width: 480px) {
     width: unset;
     max-width: unset;
+    top: -11rem;
+    height: 400px;
     padding: 0 5px 0 5px;
   }
 `;
