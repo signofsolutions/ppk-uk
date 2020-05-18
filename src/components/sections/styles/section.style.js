@@ -243,8 +243,8 @@ export const SectionFiveImage = styled.img`
 `;
 
 export const SectionFourBox = styled.div`
-  padding: 2rem;
-  background-color: white;
+  // padding: 2rem;
+  background-color: white !important;
   color: rgb(81, 165, 207);
   font-weight: bold;
   font-family: "Open Sans";

@@ -36,20 +36,24 @@ function SectionFour() {
           <SectionFourRight>
             <Slider {...settings} className="steps-slider">
               <SectionFourBox>
-                <SectionFourBoxMainTitle>01</SectionFourBoxMainTitle>
-                <SectionFourBoxTitle>Step 1: Your teams</SectionFourBoxTitle>
+                <img style={{width: "inherit"}} src={require("../../assets/images/Step-1-SLider.png")} alt="1"/>
+                {/*<SectionFourBoxMainTitle>01</SectionFourBoxMainTitle>*/}
+                {/*<SectionFourBoxTitle>Step 1: Your teams</SectionFourBoxTitle>*/}
               </SectionFourBox>
               <SectionFourBox>
-                <SectionFourBoxMainTitle>02</SectionFourBoxMainTitle>
-                <SectionFourBoxTitle>Step 2: Work-site information</SectionFourBoxTitle>
+                <img style={{width: "inherit"}} src={require("../../assets/images/Step-2-Slider.png")} alt="1"/>
+                {/*<SectionFourBoxMainTitle>02</SectionFourBoxMainTitle>*/}
+                {/*<SectionFourBoxTitle>Step 2: Work-site information</SectionFourBoxTitle>*/}
               </SectionFourBox>
               <SectionFourBox>
-                <SectionFourBoxMainTitle>03</SectionFourBoxMainTitle>
-                <SectionFourBoxTitle>Step 3: Your Budget & Parking</SectionFourBoxTitle>
+                <img style={{width: "inherit"}} src={require("../../assets/images/Step-3-Slider.png")} alt="1"/>
+                {/*<SectionFourBoxMainTitle>03</SectionFourBoxMainTitle>*/}
+                {/*<SectionFourBoxTitle>Step 3: Your Budget & Parking</SectionFourBoxTitle>*/}
               </SectionFourBox>
               <SectionFourBox>
-                <SectionFourBoxMainTitle>04</SectionFourBoxMainTitle>
-                <SectionFourBoxTitle>Step 4: Check-in/out Dates</SectionFourBoxTitle>
+                <img style={{width: "inherit"}} src={require("../../assets/images/STep-4-Slider.png")} alt="1"/>
+                {/*<SectionFourBoxMainTitle>04</SectionFourBoxMainTitle>*/}
+                {/*<SectionFourBoxTitle>Step 4: Check-in/out Dates</SectionFourBoxTitle>*/}
               </SectionFourBox>
             </Slider>
           </SectionFourRight>
