@@ -99,7 +99,7 @@
       content: "";
       background-color: #ccc;
       height: 6px;
-      width: 200px;
+      width: 150px;
       display: inline-block;
       border-radius: 5px;
       position: absolute;
@@ -308,7 +308,6 @@
     margin-left: 10px;
   }
 
-
   .pppn-divider-blue-mission {
     background-color: #2fade2;
     width: 30px;
@@ -324,7 +323,6 @@
     border-radius: 100px;
     margin-right: 10px;
   }
-
 
   .pppn-divider-blue-clients {
     background-color: #2fade2;
@@ -417,6 +415,10 @@
     height: 750px;
   }
 
+  .sections-list-container .section-col .section-image {
+    width: 0%;
+  }
+
   .image-holder-checks {
     height: 750px;
   }
@@ -435,7 +437,7 @@
       position: absolute;
       right: 5%;
       top: 17%;
-      width: 50%;
+      width: 85%;
 
       .image-title {
         font-family: "Oswald" !important;
@@ -462,6 +464,8 @@
   }
   .footer-image {
     width: 200% !important;
+    position: relative;
+    right: 35px;
   }
   .banner-inner {
     .title {
@@ -488,4 +492,13 @@
   .pppn-divider {
     display: none;
   }
+
+  .pro-padding {
+    padding-right: 4% !important;
+    text-align: center;
+  }
+}
+
+.pro-padding {
+  padding-right: 18%;
 }

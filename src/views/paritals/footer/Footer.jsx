@@ -13,17 +13,17 @@ function Footer() {
               <h1 className="title">Share</h1>
               <ul className="list-inline">
                 <li className="list-inline-item">
-                  <a href="/">
+                  <a href="https://www.facebook.com/PppnSocial">
                     <i className="fab fa-facebook-f fa-lg" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="/">
+                  <a href="https://www.linkedin.com/company/jv-hub">
                     <i className="fab fa-linkedin-in fa-lg" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="/">
+                  <a href="https://www.instagram.com/perpersonpernight">
                     <i className="fab fa-instagram fa-lg" />
                   </a>
                 </li>
@@ -65,7 +65,7 @@ function Footer() {
                   <i className="fa fa-envelope blue-color" /> info@pppn.co.uk
                 </li>
                 <li>
-                  <i className="fa fa-phone-alt blue-color" /> +44 7377172145
+                  <i className="fa fa-phone-alt blue-color" /> 0333 242 3281
                 </li>
               </ul>
             </div>

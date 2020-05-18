@@ -4,8 +4,8 @@ import "./home.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/styles/index.scss";
 //sections
-import Header from "views/paritals/header/Header";
-import Footer from "views/paritals/footer/Footer";
+import Header from "../paritals/header/Header";
+import Footer from "../paritals/footer/Footer";
 import { Images } from "utils/image";
 import GetStarted from "components/getstarted/GetStarted";
 import Slider from "react-slick";
@@ -352,34 +352,33 @@ function Home() {
           </div>
         </div>
 
-        <div className="section-row blue-bg-section">
-          <div className="d-flex flex-row justify-content-between section-flex-row align-items-center">
-            <div className="section-col w-100">
-              <img
-                src={Images.Home7}
-                className="section-medium-image"
-                alt="Fill your properties up all year round"
-              />
+        <div className="blue-bg-section row align-items-center" style={{marginRight: "0"}}>
+          <div className="col-md-6 col-sm-12 hidden-xs">
+            <img
+              style={{ width: "inherit" }}
+              src={Images.Home7}
+              className="section-medium-image"
+              alt="Fill your properties up all year round"
+            />
+          </div>
+          <div className="col-md-6 col-sm-12 pro-padding">
+            <h1 className="section-small-title mb-0">
+              Fill your properties up all year round
+            </h1>
+            <div className="pppn-divider">
+              <div className="pppn-divider-blue" />
+              <div className="pppn-divider-gray" />
             </div>
-            <div className="section-col flex-shrink-1 p-4">
-              <h1 className="section-small-title mb-0">
-                Fill your properties up all year round
-              </h1>
-              <div className="pppn-divider">
-                <div className="pppn-divider-blue" />
-                <div className="pppn-divider-gray" />
-              </div>
-              <div className="text">
-                Experience the benefits and power of our unique booking engine,
-                We’ve created a bespoke calendar that allows our clients to book
-                multiple properties over multiple weeks all at the click of a
-                few buttons. Drastically reducing the time it would take to make
-                the bookings individually, and encouraging them to book further
-                in advance than what they typically would. This results in you
-                the host receiving more bookings and more revenue.
-                <br />
-                <button className="btn btn-custom mt-4">Get Started</button>
-              </div>
+            <div className="text">
+              Experience the benefits and power of our unique booking engine,
+              We’ve created a bespoke calendar that allows our clients to book
+              multiple properties over multiple weeks all at the click of a few
+              buttons. Drastically reducing the time it would take to make the
+              bookings individually, and encouraging them to book further in
+              advance than what they typically would. This results in you the
+              host receiving more bookings and more revenue.
+              <br />
+              <button className="btn btn-custom mt-4">Get Started</button>
             </div>
           </div>
         </div>
